@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+#trangchu{
+	
+}
+#menu ul{
+	background:PINK;
+	text-align:center;
+	list-style-type:none;
+	width:350px;
+}
+#menu ul li{
+	display:inline-table;
+	width:80px;	
+	height:40px;
+	line-height:40px;
+	color:#333;
+	
+	
+}
+#menu ul li a{
+	color:YELLOW;
+	text-decoration:none;
+	display:block;
+
+}
+
+
+
+
+
+#menu1 ul{
+	background:PINK;
+	list-style-type:none;
+	width:250px;
+}
+#menu1 ul li{
+	height:40px;
+	line-height:40px;
+	color:#F00;
+	border-bottom:1px solid #936;
+	
+}
+#menu1 ul li a{
+	color:#F00;
+	text-decoration:none;
+	display:block;
+}
+#menu1 ul li a:hover{
+	background:#330;
+	color:#CCC;
+}
+
+
+
+#menu2 ul{
+	background:#666;
+	text-align:center;
+	list-style-type:none;
+	width:auto;	
+}
+#menu2 ul li{
+	display:inline-table;
+	width:150px;	
+	height:40px;
+	line-height:40px;
+	color:#006;
+}
+#menu2 ul li a{
+	color:#3F0;
+	text-decoration:none;
+	display:block;
+}
+#menu2 ul li a:hover{
+	background:#0F0;
+	color:#999;
+}
+#menu2 ul li >.sup-menu{
+	display:none;
+}
+#menu2 ul li:hover	.sup-menu{
+	display:block;
+}
+
+
+
+
+
+
+
+
+#menu3 ul{
+	background:#F90;
+	list-style-type:none;
+	width:250px;
+}
+#menu3 ul li{
+		
+	width:auto;
+	height:40px;
+	line-height:40px;
+	color:#F00;
+	border-bottom:1px solid #936;
+	position:relative;
+
+}
+#menu3 .sup-menu3{
+	left:250px;
+	top:0px;
+	position:absolute;
+}
+#menu3 ul li a{
+	color:#F00;
+	text-decoration:none;
+	display:block;
+}
+#menu3 ul li a:hover{
+	background:#00F;
+	color:#0C6;
+}
+#menu3 ul li >.sup-menu3{
+	display:none;
+}
+#menu3 ul li:hover .sup-menu3{
+	display:block;
+	
+}
