@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width:62.828%;
+	background:light green;
+	min-height:300px;
+	margin:auto;
+}
+header{
+	background:pink;
+	width:100%;
+	min-height:50px;
+	margin-bottom:20px;
+
+}
+nav{
+	margin-bottom:20px;
+	background:blue;
+	min-height:100px;
+	width:100%;
+}
+#content{
+	width:100%;
+	background:purple;
+	overflow:auto;
+	padding:15px;
+	box-sizing:border-box;
+}
+.noidung{
+	width:29.284%;
+	background:yellow;
+	min-height:200px;
+	float:left;
+	margin-right:30px;
+}
+footer{
+	margin-top:10px;
+	background:blue;
+	min-height:70px;
+	clear:left;
+}
